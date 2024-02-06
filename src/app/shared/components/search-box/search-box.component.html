@@ -1,0 +1,8 @@
+<!-- Funcionamiento del searchhbox 1er paso -->
+<input
+  type="text"
+  class="form-control"
+  [placeholder]="placeholder"
+  (keyup.enter)="emitValue(txtInput.value)"
+  #txtInput
+  >
